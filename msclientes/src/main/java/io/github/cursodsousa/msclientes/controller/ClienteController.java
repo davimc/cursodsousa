@@ -11,11 +11,15 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 
 @RestController
-@RequestMapping(value = "/clientes")
+@RequestMapping("clientes")
 @RequiredArgsConstructor
 public class ClienteController {
     private final ClienteService service;
 
+    @GetMapping
+    public String teste() {
+        return "OK";
+    }
     @GetMapping(value = "/cpf")
     public ResponseEntity findCpf(@RequestParam String cpf) {
         try {

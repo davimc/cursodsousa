@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/msclientes/pom.xml" />
+        <option value="$PROJECT_DIR$/msgetway/pom.xml" />
+        <option value="$PROJECT_DIR$/msgateway/pom.xml" />
       </list>
     </option>
   </component>
