@@ -12,10 +12,14 @@
         <module name="msclientes" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mscartoes" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaServer" options="-parameters" />
+      <module name="mscartoes" options="-parameters" />
       <module name="msclientes" options="-parameters" />
       <module name="msgateway" options="-parameters" />
     </option>
