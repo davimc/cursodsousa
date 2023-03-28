@@ -8,13 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
+        <module name="mscartoes" />
         <module name="msgateway" />
         <module name="msclientes" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mscartoes" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
