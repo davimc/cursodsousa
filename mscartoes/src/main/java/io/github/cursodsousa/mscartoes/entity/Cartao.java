@@ -14,15 +14,15 @@ public class Cartao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String nome;
 
     @Enumerated(EnumType.ORDINAL)
     private Bandeira bandeira;
     private BigDecimal renda;
     private BigDecimal limiteBasico;
 
-    public Cartao(String name, Bandeira bandeira, BigDecimal renda, BigDecimal limiteBasico) {
-        this.name = name;
+    public Cartao(String nome, Bandeira bandeira, BigDecimal renda, BigDecimal limiteBasico) {
+        this.nome = nome;
         this.bandeira = bandeira;
         this.renda = renda;
         this.limiteBasico = limiteBasico;
