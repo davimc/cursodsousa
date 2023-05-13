@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Create microservice Avaliador" />
+    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Create microservice avaliador cartao">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683903628666</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Cr">
+      <created>1683942615982</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1683942615982</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Create microservice avaliador cartao">
+      <created>1683942663881</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683942663881</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,9 +369,10 @@
     <MESSAGE value="Cliente Cartao" />
     <MESSAGE value="No args constructor" />
     <MESSAGE value="Registering cartoes service" />
-    <MESSAGE value="fix" />
     <MESSAGE value="Create microservice Avaliador" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create microservice Avaliador" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="Create microservice avaliador cartao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create microservice avaliador cartao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
