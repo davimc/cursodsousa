@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Create microservice Avaliador" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/EurekaServer">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NTMHteRYPGxyEQCcjOVGY294ia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Davi M Carvalho/IdeaProjects/cursodsousa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.cursodsousa.mscartoes.DTO.clientecartoes" />
+      <recent name="io.github.cursodsousa.mscartoes.DTO" />
+      <recent name="io.github.cursodsousa.mscartoes.entity.enums" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.cursodsousa.mscartoes.controller" />
+      <recent name="io.github.cursodsousa.mscartoes.service" />
+      <recent name="io.github.cursodsousa.mscartoes.repository" />
+      <recent name="io.github.cursodsousa.mscartoes.DTO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MsavaliadorcreditoApplication">
+    <configuration name="EurekaServerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.EurekaServer.EurekaServerApplication" />
+      <module name="EurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.cursodsousa.EurekaServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsavaliadorcreditoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsouza.msavaliadorcredito.MsavaliadorcreditoApplication" />
+      <module name="msavaliadorcredito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.cursodsouza.msavaliadorcredito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscartoesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.mscartoes.MscartoesApplication" />
+      <module name="mscartoes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.cursodsousa.mscartoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.msclientes.MsclientesApplication" />
+      <module name="msclientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.cursodsousa.msclientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsgatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.cursodsousa.msgateway.MsgatewayApplication" />
+      <module name="msgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.cursodsousa.msgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mscartoes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mscartoes" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MsavaliadorcreditoApplication" />
+        <item itemvalue="Application.MscartoesApplication" />
+        <item itemvalue="Application.MsclientesApplication" />
+        <item itemvalue="Application.MsgatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Removing gradle" />
+      <created>1679683534119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679683534119</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Eureka server">
+      <created>1679684657623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679684657623</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Cliente microservice">
+      <created>1679688573513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679688573513</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cliente microservice">
+      <created>1679688914286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679688914286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testing mscliente">
+      <created>1679869187022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679869187022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removing gradle">
+      <created>1679869204637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679869204637</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Gateway microservice">
+      <created>1679874171513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679874171513</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Gateway microservice">
+      <created>1679966133821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679966133821</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create microservice cartões">
+      <created>1679966996823</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679966996823</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create microservice cartões">
+      <created>1679967119565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679967119565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Starting eureka config">
+      <created>1679997669995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679997669995</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cartões e teste status">
+      <created>1680398969362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680398969362</updated>
+    </task>
+    <task id="LOCAL-00012" summary="jpa buddy">
+      <created>1680398983019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680398983019</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cartao">
+      <created>1680465025972</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680465025973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <created>1680465043102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680465043102</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Cartao repository, service, controller, dto">
+      <created>1680465076853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680465076853</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Cliente Cartao">
+      <created>1681436643971</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681436643971</updated>
+    </task>
+    <task id="LOCAL-00017" summary="No args constructor">
+      <created>1681436664352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681436664352</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Registering cartoes service">
+      <created>1681436705877</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681436705877</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix">
+      <created>1683903600670</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903600670</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create microservice Avaliador">
+      <created>1683903628665</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903628666</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eureka server" />
+    <MESSAGE value="Cliente microservice" />
+    <MESSAGE value="Testing mscliente" />
+    <MESSAGE value="Removing gradle" />
+    <MESSAGE value="Gateway microservice" />
+    <MESSAGE value="Create microservice cartões" />
+    <MESSAGE value="Starting eureka config" />
+    <MESSAGE value="Cartões e teste status" />
+    <MESSAGE value="jpa buddy" />
+    <MESSAGE value="Cartao" />
+    <MESSAGE value="Cartao repository, service, controller, dto" />
+    <MESSAGE value="Cliente Cartao" />
+    <MESSAGE value="No args constructor" />
+    <MESSAGE value="Registering cartoes service" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="Create microservice Avaliador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create microservice Avaliador" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/DTO/CartaoNewDTO.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/DTO/CartaoNewDTO.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/DTO/CartaoNewDTO.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/service/CartaoService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/service/CartaoService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/service/CartaoService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
