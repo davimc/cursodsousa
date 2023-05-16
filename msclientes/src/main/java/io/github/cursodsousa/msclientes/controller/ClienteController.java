@@ -20,7 +20,7 @@ public class ClienteController {
     public String teste() {
         return "OK";
     }
-    @GetMapping(value = "/cpf")
+    @GetMapping(params = "cpf")
     public ResponseEntity findCpf(@RequestParam String cpf) {
         try {
             return ResponseEntity.ok().body(service.findCpf(cpf));

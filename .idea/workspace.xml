@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Create microservice avaliador cartao">
+    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/infra/client/ClienteResourceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/CartaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/DadosCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/SituacaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/service/AvaliadorCreditoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/MsavaliadorcreditoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/MsavaliadorcreditoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/controller/AvaliadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/controller/AvaliadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/java/io/github/cursodsousa/msclientes/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/cursodsousa/msclientes/controller/ClienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +52,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,19 +82,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Davi M Carvalho/IdeaProjects/cursodsousa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Davi M Carvalho/IdeaProjects/dslist",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.cursodsouza.msavaliadorcredito.service" />
+      <recent name="io.github.cursodsouza.msavaliadorcredito.model" />
       <recent name="io.github.cursodsousa.mscartoes.DTO.clientecartoes" />
       <recent name="io.github.cursodsousa.mscartoes.DTO" />
       <recent name="io.github.cursodsousa.mscartoes.entity.enums" />
@@ -170,8 +191,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MsavaliadorcreditoApplication" />
-        <item itemvalue="Application.MscartoesApplication" />
         <item itemvalue="Application.MsclientesApplication" />
+        <item itemvalue="Application.MscartoesApplication" />
         <item itemvalue="Application.MsgatewayApplication" />
         <item itemvalue="Application.EurekaServerApplication (1)" />
       </list>
@@ -340,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683942663881</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix">
+      <created>1683974065535</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683974065535</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,9 +398,9 @@
     <MESSAGE value="No args constructor" />
     <MESSAGE value="Registering cartoes service" />
     <MESSAGE value="Create microservice Avaliador" />
-    <MESSAGE value="fix" />
     <MESSAGE value="Create microservice avaliador cartao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create microservice avaliador cartao" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
