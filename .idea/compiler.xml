@@ -10,7 +10,6 @@
         <module name="EurekaServer" />
         <module name="mscartoes" />
         <module name="msgateway" />
-        <module name="msavaliadorcartao" />
         <module name="msavaliadorcredito" />
         <module name="msclientes" />
       </profile>
