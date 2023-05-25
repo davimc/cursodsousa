@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Configuring RabbitMQ">
-      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/config/MQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/infra/mqueue/SolicitacaoEmissaoCartaoPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/ProtocoloSolicitacaoCartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/service/ex/ErroSolicitacaoCartaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/entity/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
+    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Request card emission">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/MsavaliadorcreditoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/MsavaliadorcreditoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/controller/AvaliadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/controller/AvaliadorCreditoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/CartaoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/model/CartaoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/service/AvaliadorCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/java/io/github/cursodsouza/msavaliadorcredito/service/AvaliadorCreditoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msgateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msgateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684844368825</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Request card emission">
+      <created>1684978142279</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1684978142280</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Eureka server" />
     <MESSAGE value="Cliente microservice" />
     <MESSAGE value="Testing mscliente" />
     <MESSAGE value="Removing gradle" />
@@ -467,7 +462,8 @@
     <MESSAGE value="fix: adding version controll" />
     <MESSAGE value="MQ listener" />
     <MESSAGE value="Configuring RabbitMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring RabbitMQ" />
+    <MESSAGE value="Request card emission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Request card emission" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
