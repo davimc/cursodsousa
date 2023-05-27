@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Configuring Keycloak">
+    <list default="true" id="2166295b-3f1c-4272-b212-c35001fc1ef7" name="Changes" comment="Log for EmissaoCartaoSubscriber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msavaliadorcredito/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mscartoes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +70,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Davi M Carvalho/IdeaProjects/dslist",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Davi M Carvalho/IdeaProjects/dslist&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.github.cursodsouza.msavaliadorcredito.service" />
@@ -174,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MsavaliadorcreditoApplication" />
-        <item itemvalue="Application.MsclientesApplication" />
         <item itemvalue="Application.MscartoesApplication" />
-        <item itemvalue="Application.MsgatewayApplication" />
+        <item itemvalue="Application.MsclientesApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.MsgatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +433,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685056179963</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Updating readme">
+      <created>1685056803435</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685056803435</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Protecting Eureka">
+      <created>1685147716170</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1685147716170</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Request Authentication">
+      <created>1685147879429</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1685147879429</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Releasing authentication">
+      <created>1685148097053</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1685148097053</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Log for EmissaoCartaoSubscriber">
+      <created>1685148381038</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685148381038</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,11 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing mscliente" />
-    <MESSAGE value="Removing gradle" />
-    <MESSAGE value="Gateway microservice" />
-    <MESSAGE value="Create microservice cartões" />
-    <MESSAGE value="Starting eureka config" />
     <MESSAGE value="Cartões e teste status" />
     <MESSAGE value="jpa buddy" />
     <MESSAGE value="Cartao" />
@@ -468,29 +503,34 @@
     <MESSAGE value="Configuring RabbitMQ" />
     <MESSAGE value="Request card emission" />
     <MESSAGE value="Configuring Keycloak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring Keycloak" />
+    <MESSAGE value="Updating readme" />
+    <MESSAGE value="Protecting Eureka" />
+    <MESSAGE value="Request Authentication" />
+    <MESSAGE value="Releasing authentication" />
+    <MESSAGE value="Log for EmissaoCartaoSubscriber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log for EmissaoCartaoSubscriber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java</url>
-          <line>25</line>
+          <line>27</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mscartoes/src/main/java/io/github/cursodsousa/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java</url>
-          <line>26</line>
+          <line>28</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

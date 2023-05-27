@@ -12,3 +12,12 @@ eureka:
       defaultZone: http://curso-eureka-user:curso-eureka-pass@localhost:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring-cloud.application.instance_id:${random.value}}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  charset:
+    file: ./logs/log-file.log
