@@ -8,12 +8,14 @@ import io.github.cursodsousa.mscartoes.entity.DadosSolicitacaoEmissaoCartao;
 import io.github.cursodsousa.mscartoes.repository.CartaoRepository;
 import io.github.cursodsousa.mscartoes.repository.ClienteCartaoRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
+@Slf4j
 public class EmissaoCartaoSubscriber {
     private final CartaoRepository cartaoRepository;
     private final ClienteCartaoRepository clienteRepository;
@@ -30,7 +32,7 @@ public class EmissaoCartaoSubscriber {
 
             clienteRepository.save(clienteCartao);
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            log.error("Log emissão de cartões: {}", e);
         }
     }
 }
