@@ -7,6 +7,9 @@ RUN mvn clean package -DskipTests
 FROM openjdk:11
 WORKDIR /app
 COPY --from=build ./app/target/*.jar ./app.jar
-EXPOSE 8761
+
+ARG RABBITMQ-SERVER=rabbitmq-host
+ARG EUREKA-SERVER=localhost
 ENTRYPOINT java -jar ./app.jar
+
 
