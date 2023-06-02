@@ -11,7 +11,7 @@ spring:
     oauth2:
       resourceserver:
          jwt:
-           issuer-uri: http://localhost:8081/realms/MSCourseRealm
+           issuer-uri: http://${KEYCLOAK_SERVER}:${KEYCLOAK_PORT}/realms/MSCourseRealm
 
 server:
   port: 8080
@@ -21,4 +21,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://curso-eureka-user:curso-eureka-pass@localhost:8761/eureka
+      defaultZone: http://curso-eureka-user:curso-eureka-pass@${EUREKA_SERVER}:8761/eureka
